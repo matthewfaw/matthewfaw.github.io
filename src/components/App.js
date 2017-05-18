@@ -1,20 +1,30 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Grid, Row, Col } from 'react-bootstrap';
 import WelcomePage from './WelcomePage';
-import SecondPage from './SecondPage';
+import NavBar from './NavBar';
+
+const navTitle = 'Matthew Faw'
+const navItems = [
+    {pathname: '/projects', text: 'Projects'},
+    {pathname: '/edu', text: 'Education'},
+    {pathname: '/music', text: 'Music'},
+]
 
 const App = () => (
     <Router>
         <div>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/second">Second</Link></li>
-            </ul>
-
-            <hr/>
-
-            <Route exact path="/" component={WelcomePage}/>
-            <Route path="/second" component={SecondPage}/>
+            <NavBar 
+                title={navTitle}
+                items={navItems}
+            />
+            <Grid>
+                <Row>
+                    <Col xs={12}>
+                        <Route exact path="/" component={WelcomePage}/>
+                    </Col>
+                </Row>
+            </Grid>
         </div>
     </Router>
 )
