@@ -4,7 +4,7 @@ class SecondPage extends Component {
   render() {
     return (
       <div>
-        <h1>SecondDerp</h1>
+        <h1>Secondd</h1>
       </div>
     );
   }
