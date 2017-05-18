@@ -1,0 +1,31 @@
+{
+  "name": "matthewfaw.github.io",
+  "version": "1.0.0",
+  "description": "This is the page for my personal webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewfaw/matthewfaw.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewfaw/matthewfaw.github.io/issues"
+  },
+  "homepage": "https://matthewfaw.github.io/matthewfaw.github.io",
+  "devDependencies": {
+    "react-scripts": "^0.9.5"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1"
+  }
+}
