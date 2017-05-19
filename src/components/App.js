@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Grid, Row, Col } from 'react-bootstrap';
 import WelcomePage from './WelcomePage';
+import ProjectsPage from './ProjectsPage';
+import EducationPage from './EducationPage';
+import MusicPage from './MusicPage';
 import NavBar from './NavBar';
 
 const navTitle = 'Matthew Faw'
@@ -22,6 +25,9 @@ const App = () => (
                 <Row>
                     <Col xs={12}>
                         <Route exact path="/" component={WelcomePage}/>
+                        <Route exact path="/projects" component={ProjectsPage}/>
+                        <Route exact path="/edu" component={EducationPage}/>
+                        <Route exact path="/music" component={MusicPage}/>
                     </Col>
                 </Row>
             </Grid>

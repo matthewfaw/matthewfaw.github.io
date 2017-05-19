@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import NavItemInstance from './NavItemInstance';
 
 const NavBar = ({ title, items }) => (
-    <Navbar >
+    <Navbar inverse>
         <Navbar.Header>
             <Navbar.Brand>
                 <Link to='/'>{title}</Link>

@@ -13,8 +13,8 @@ const WelcomePage = () => (
                 as a Software Engineer.
             </p>
             <p>
-                In my spare time, I love reading, running, playing classical
-                guitar, and listening to music. I also really enjoy working
+                In my spare time, I like to read, run, play classical
+                guitar, and listen to music. I also really enjoy working
                 on projects in my spare time.  For a taste of some things
                 I've been working on recently, check out my
                 <a href="https://github.com/matthewfaw"> GitHub. </a>
