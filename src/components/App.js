@@ -1,5 +1,5 @@
 import React from 'react';
-import { hashHistory as history, BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 import { Grid, Row, Col } from 'react-bootstrap';
 import WelcomePage from './WelcomePage';
 import ProjectsPage from './ProjectsPage';
@@ -15,7 +15,7 @@ const navItems = [
 ]
 
 const App = () => (
-    <Router history={history}>
+    <Router>
         <div>
             <NavBar 
                 title={navTitle}
