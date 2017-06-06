@@ -345,7 +345,7 @@ const EducationPage = () => (
                 </tbody>
             </Table >
 
-            <h1>Fall 2017</h1>
+            <h1>Spring 2017</h1>
             <Table striped responsive >
                 <thead>
                     <tr>
