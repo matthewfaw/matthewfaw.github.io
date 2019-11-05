@@ -1,47 +1,250 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Matthew Faw</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<html><head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99308138-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-99308138-1');
+</script>
+
+<title>Matthew Faw's Homepage</title>
+<link rel="stylesheet" type="text/css" media="screen" title="blue"  href="indexblue.css" />
+<link rel="stylesheet" type="text/css" media="screen" title="plain" href="indexnone.css" />
+<link rel="stylesheet" type="text/css" media="print" href="indexprint.css" />
+<script type="text/javascript" src="index.js"></script>
+<link rel="icon" href="files/favicon.ico">
+
 </head>
 <body>
-<div id="layout-content">
-<div id="toptitle">
-<h1>Matthew Faw</h1>
+    <span style="position:absolute; right:5px; top: 5px;">
+        <input type="button" id="toggle-style" onclick="switch_style('blue');"
+        style="border:1px solid;background-color:rgba(255,255,255,0.6);" 
+        name="theme" value="Derp" id="blue" />
+        <!--<input type="button" onclick="switch_style('plain');" style="border:1px-->
+        <!--solid; background-color:rgba(255,255,255,0.6);" name="theme" value="Lame" id="print" />-->
+    </span>
+
+    <br>
+    <br>
+    <!--<p id="quotation">-->
+    <!--<q cite="Arcade Fire ('Rebellion (Lies)?')">-->
+        <!--<span>&#8220;S</span>leeping is giving in, so lift those heavy eyelids.&#8221;-->
+        <!--</q>-->
+    <!--</p>-->
+
+<div id="content">
+
+<div id="photograph"><img src="files/me4.jpg" alt="Picture of me." /></div>
+
+<h1 id="title">Matthew Faw</h1>
+
+<h2>Contact Information</h2>
+<div id="sec-contact">
+    <dl>
+        <dt>Phone</dt><dd>336-262-1938</dd>
+        <dt>Email</dt><dd> <a href="mailto:matthewfaw@utexas.edu">matthewfaw@utexas.edu</a></dd>
+        <dt>Profiles</dt>
+        <dd><a href="https://scholar.google.com/citations?user=uzyYjPkAAAAJ&hl=en">Google Scholar</a></dd>
+        <dd><a href="https://github.com/matthewfaw/">Github</a></dd>
+    </dl>
 </div>
-<table class="imgtable"><tr><td>
-<img src="me3.jpg" alt="Picture this..." width="200px" height="267px" />&nbsp;</td>
-<td align="left"></td></tr></table>
+
 <h2>About Me</h2>
-<p>I'm a first-year Ph.D. student in the ECE department at The University of Texas 
-at Austin, working under 
-<a href="http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html">Constantine Caramanis</a>
-and
-<a href="http://users.ece.utexas.edu/~shakkott/Sanjay_Shakkottai/Contact.html">Sanjay Shakkottai</a>.</p>
-<p>Lately, I've been interested in problems at the intersection of optimization and bandits.</p>
-<p>I completed my B.S.E. in ECE, Computer Science, and Mathematics at Duke University,
-where I worked under
-<a href="http://people.duke.edu/~bcl15/">Benjamin Lee</a>.</p>
-<h2>Publications</h2>
-<ol>
-<li><p>S.M. Zahedi, S. Fan, <b>M. Faw</b>, E. Cole, B.C. Lee. 
-<a href="https://dl.acm.org/citation.cfm?id=3014428">&ldquo;Computational Sprinting: Architecture, Dynamics, and Strategies,&rdquo;</a>
-ACM Transactions on Computer Systems (TOCS), 34(4):12.1-12:26, January 2017. 
-<br /><br />
-A game theoretic approach to managing sprints in multiprocessors with a shared
-power supply improves task 
-throughput and efficiency in a variety of <a href="https://spark.apache.org/">Spark</a> workloads.</p>
-</li>
-</ol>
-<h2>Contact info</h2>
-<ul>
-<li><p><b>Email:</b> matthewfaw [at] utexas [dot] edu</p>
-</li>
+<div id="sec-about">
+I am a second-year Ph.D. student in the ECE department at The University of
+Texas at Austin, where I am very fortunate to be advised by 
+<a href="https://sites.google.com/view/sanjay-shakkottai/">Sanjay Shakkottai</a>
+and 
+<a href="http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html">
+    Constantine Caramanis</a>.
+<br><br>
+
+Prior to joining UT Austin, I spent four fun years at Duke University, where I
+graduated with majors in Electrical & Computer Engineering, Computer Science,
+and Mathematics. During my time there, I had the great fortune of working with 
+<a href="http://people.duke.edu/~bcl15/index.html">Ben Lee</a> on designing
+economically sustainable algorithms for
+datacenter-level computational sprinting, 
+<a href="http://microfluidics.ee.duke.edu/">Richard Fair</a> on 
+designing digital microfluidic devices capable of manipulating cells within a droplet, and 
+<a href="https://buchlerlab.wordpress.ncsu.edu/">Nick Buchler</a> on using
+CRISPR technologies to create cells which perform logical operations.
+<br><br>
+
+Outside of school, I've also spent time in industry. During the summer of 2016,
+I was a software engineering intern at 
+<a href="https://www.mathworks.com/">MathWorks</a> on the Stateflow Semantics
+team, where I developed a new code generation framework. Between undergrad and
+grad school, I also spent a year working as a software engineer at a healthcare
+software startup called <a href="https://verato.com/">Verato</a>, where I co-developed
+a continuous integration platform on Kubernetes and wrote code to maintain and
+update the identity data in the company's main database.
+<br><br>
+
+Here is my <a href="files/resume.pdf">résumé</a>.
+</div>
+
+<h2>Research Interests</h2>
+<div id="sec-research">
+
+My interests include online learning, optimization (both convex and
+non-convex), and transfer learning.
+Lately, I've been using ideas from convex optimization and
+bandits to develop algorithms to correct for distribution shift. I've 
+<a href="https://arxiv.org/abs/1907.10154">recently discovered</a> that convex
+optimization and continuous-armed bandit setups provide a really useful
+framework for studying covariate shift (and its generalizations), and believe
+that optimization and online learning will provide useful approaches to
+studying and designing algorithms with theoretical guarantees for a wide range 
+of problems in transfer learning.
+
+</div>
+
+<h2>News</h2>
+<div id="sec-news">
+  <ul>
+    <li>(10/9/19) New paper on arXiv, 
+        <a href="https://arxiv.org/abs/1907.10154">
+            Mix and Match: An Optimistic Tree-Search Approach for Learning
+            Models from Mixture Distributions</a>!
+    </li>
+    <li>(8/29/18) I started graduate school at UT Austin!</li>
 </ul>
 </div>
-</body>
-</html>
+
+
+
+<h2>Research</h2>
+<div id="sec-papers">
+<h3 id="toggle">Selected Papers (<a href="javascript:void(0)" onclick="showAll(false)">Show all</a>):</h3>
+
+<ul>
+
+<div class="selected">
+    <li> <a href="https://arxiv.org/abs/1907.10154">Mix and Match: An
+            Optimistic Tree-Search Approach for Learning Models from Mixture
+            Distributions</a>
+  <br>Matthew Faw, Rajat Sen, Karthikeyan Shanmugam, Constantine Caramanis, and Sanjay Shakkottai.
+<br>In submission.
+<br>Summary:
+<ul>
+    <li>We introduce a new framework to handle distribution shift, assuming
+        access to a small validation dataset. Our assumption on distribution
+        shift is more general than covariate shift, and accommodates latent
+        variables. 
+    <li>Our assumptions naturally motivate formulating the problem
+    in the continuous-armed bandit framework and using an optimistic
+    tree-search algorithm to account for distribution shift.</li>
+    <li>Our analysis
+        requires high-probability bounds on the error of the final iterate of
+        SGD. We prove <i>new bounds</i> on the error of the
+        final SGD iterate that <i>do not require a global stochastic gradient
+            bound</i>!</li>
+    <li>We validate our theoretical results on three Kaggle datasets (an
+        Allstate insurance dataset, a wine ratings dataset, and Amazon employee
+        access dataset). 
+        The code to run the experiments and create the datasets can be found 
+        <a href="https://github.com/matthewfaw/mixnmatch">here</a>.</li>
+    <li>All experiments were run on a Kubernetes cluster in Google Cloud.
+        Code to create the experimental setup is avaliable 
+        <a href="https://github.com/matthewfaw/mixnmatch-infrastructure">here</a>.</li>
+</ul>
+</li>
+<br>
+</div>
+
+
+<div class="selected" id="last_paper">
+    <li> <a href="https://dl.acm.org/citation.cfm?id=3014162.3014428">
+            Computational Sprinting: Architecture, Dynamics, and Strategies</a>
+  <br>Seyed Majid Zahedi, Songchun Fan, Matthew Faw, Elijah Cole, and Benjamin C. Lee
+<br>ACM Transactions on Computer Systems (TOCS), Volume 34 Issue 4, January 2017
+<br>Summary:
+<ul>
+    <li>A game theoretic approach to managing sprints in multiprocessors with a
+        shared power supply improves task throughput and efficiency in a
+        variety of Spark workloads.</li>
+</ul>
+</li>
+<br>
+</div>
+</ul>
+
+</div>
+
+<h2>Other Projects</h2> 
+<div id="sec-otherproj">
+<ul>
+    <li> During my freshman year, I worked in a synthetic biology lab, where we
+        worked to use CRISPR and molecular titration techniques to demonstrate
+        ultrasensitive responses in E.coli cells as a proof-of-concept for
+        building biological circuits to perform logical operations. I also
+        designed some 3D-printed lab equipment to help make biology lab
+        equipment more affordable/accessible, and co-designed and taught the
+        first ever house course on synthetic biology at Duke! Our team
+        <a href="https://genome.duke.edu/news/tue-06092015-0834/duke%E2%80%99s-igem-team-wins-gold-2014">won
+            a gold medal</a> at the 
+        <a href="https://igem.org/Main_Page">International Genetically
+            Engineered Machine Competition</a>! You can learn more about our
+        project <a href="http://2014.igem.org/Team:Duke">here</a>!</li>
+    <li>During my undergrad, I had the opportunity to work on a variety of fun
+    projects. A couple of notable examples: For an advanced linear algebra course, I wrote a survey on 
+    <a href="https://github.com/matthewfaw/papers/blob/master/math/coxeter-groups-mcf28.pdf">
+    Finite Coxeter Groups</a>. For a software design course, I led a group of
+    ten students to implement a
+    <a href="https://github.com/matthewfaw/voogasalad_voogabonds">video game
+        authoring environment</a>.
+    </li>
+    <li>In my free time, I enjoy discovering new music. I've written an app to
+    send Slack messages whenever Pitchfork announces best new music, available 
+    <a href="https://github.com/matthewfaw/best-new-music-tracker">here</a>. I
+    also wrote an app that 
+    <a href="https://github.com/matthewfaw/spotify-scrobbler"> 
+    logs my Spotify listening history</a> and 
+<a href="https://github.com/matthewfaw/spotify-data-analysis">plots graphs of
+    artist relationships</a>.</li>
+</ul>
+</div>
+
+<h2>Teaching</h2> 
+<div id="sec-teaching">
+I have had the great fortune of teaching a variety of classes during my
+undergraduate and graduate careers, in capacities ranging from teaching
+assistant to instructor. Through my teaching, I strive to make the classroom a
+more welcoming place for all students, and particularly shy students who often
+are overlooked in traditional classroom formats. I have found that simple acts,
+such as brief, individual interactions with each student periodically
+throughout a semester, can have a noticeable positive impact on their enjoyment
+of and engagement with the course.
+<ul>
+    <li>Spring 2019: EE 460J &#151; Data Science Lab (Teaching Assistant)</li>
+    <li>Fall 2018: EE 460J &#151; Data Science Lab (Teaching Assistant)</li>
+    <li>Spring 2017: CS 308 &#151; Software Design and Implementation (Teaching Assistant)</li>
+    <li>Fall 2015: ECE 280 &#151; Signals and Systems (Teaching Assistant)</li>
+    <li>Spring 2015: HOUSECS 59-08 &#151; Emergence of Synthetic Biology
+        (Co-designer/instructor)</li>
+</ul>
+</div>
+
+<h2>Coauthors</h2>
+<div id="sec-coauthors">
+My coauthors include: 
+<a href="http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html">Constantine
+    Caramanis</a>,
+<a href="https://elijahcole.me/">Elijah Cole</a>,
+<a href="https://schfan.github.io/">Songchun Fan</a>,
+<a href="http://people.duke.edu/~bcl15/index.html">Benjamin Lee</a>,
+<a href="https://rajatsen91.github.io/publication/">Rajat Sen</a>,
+<a href="https://sites.google.com/view/sanjay-shakkottai/">Sanjay
+    Shakkottai</a>,
+<a href="https://sites.google.com/a/utexas.edu/karthiksh/">Karthikeyan
+    Shanmugam</a>,
+and
+<a href="https://ece.uwaterloo.ca/~smzahedi/">Seyed Zahedi</a>.
+</div>
+
+</div>
+</body></html>
