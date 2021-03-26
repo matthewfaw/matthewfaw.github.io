@@ -31,7 +31,7 @@
     <!--<q cite="Arcade Fire ('Rebellion (Lies)?')">-->
         <!--<span>&#8220;S</span>leeping is giving in, so lift those heavy eyelids.&#8221;-->
         <!--</q>-->
-    <!--</p>-->
+    <!--</p>-->-->
 
 <div id="content">
 
@@ -42,7 +42,6 @@
 <h2>Contact Information</h2>
 <div id="sec-contact">
     <dl>
-        <dt>Phone</dt><dd>336-262-1938</dd>
         <dt>Email</dt><dd> <a href="mailto:matthewfaw@utexas.edu">matthewfaw@utexas.edu</a></dd>
         <dt>Profiles</dt>
         <dd><a href="https://scholar.google.com/citations?user=uzyYjPkAAAAJ&hl=en">Google Scholar</a></dd>
@@ -52,7 +51,7 @@
 
 <h2>About Me</h2>
 <div id="sec-about">
-I am a second-year Ph.D. student in the ECE department at The University of
+I am a third-year Ph.D. student in the ECE department at The University of
 Texas at Austin, where I am very fortunate to be advised by 
 <a href="https://sites.google.com/view/sanjay-shakkottai/">Sanjay Shakkottai</a>
 and 
@@ -88,22 +87,25 @@ Here is my <a href="files/resume.pdf">CV</a>.
 <h2>Research Interests</h2>
 <div id="sec-research">
 
-My interests include online learning, optimization (both convex and
-non-convex), adaptive data analysis, and transfer learning.
-Lately, I've been using ideas from convex optimization and
-bandits to develop algorithms to correct for distribution shift. I've 
-<a href="https://arxiv.org/abs/1907.10154">recently discovered</a> that convex
-optimization and continuous-armed bandit setups provide a really useful
-framework for studying covariate shift (and its generalizations), and believe
-that optimization and online learning will provide useful approaches to
-studying and designing algorithms with theoretical guarantees for a wide range 
-of problems in transfer learning.
+My interest lie broadly in the design and analysis of 
+online algorithms and learning problems in information-constrained and dynamic
+environments. Much of my past and current work involves the study of
+multi-armed bandit problems, prophet inequalities, and domain adaptation
+algorithms. I also enjoy working on problems in optimization (e.g., convex,
+non-convex, and combinatorial) and differential privacy/adaptive data analysis,
+and much of my work seeks interesting connections among these various
+interests.
 
 </div>
 
 <h2>News</h2>
 <div id="sec-news">
   <ul>
+      <li>(3/24/21) New paper on arXiv, <a
+              href="https://arxiv.org/abs/2103.13089">Single-Sample Prophet
+              Inequalities Revisited</a>!</li>
+      <li>(9/25/20) One <a href="https://papers.nips.cc/paper/2020/hash/7d3d5bcad324d3edc08e40738e663554-Abstract.html">paper</a>
+          accepted to NeurIPS 2020!</li>
     <li>(5/26/20) I received a fellowship from the 
         <a
             href="https://www.nxp.com/company/our-company/about-nxp/sustainability/engagement/community-engagement/nxp-foundation:NXP-FOUNDATION">NXP
@@ -128,12 +130,95 @@ of problems in transfer learning.
 
 <div class="selected">
     <li> 
-        <a href="https://arxiv.org/abs/1907.10154">
+        <a href="https://arxiv.org/abs/2103.13089">
+            Single-Sample Prophet Inequalities Revisited</a>
+  <br>Constantine Caramanis, Matthew Faw, Orestis Papadigenopoulos, and
+  Emmanouil Pountourakis (Alphabetical order)
+<br>In submission.
+<br>Background/Setup:
+<ul>
+    <li>We consider the problem of designing prophet inequalities in limited
+        information regimes under combinatorial constraints.</li>
+    <li>The prophet inequality problem is an optimal stopping problem.
+        In the problem, a gambler is presented with a sequence of non-negative
+        random variables, one at a time. At each time, the gambler may either
+        collect this reward, or forfeit this reward forever. Each reward
+        is associated with some element in a combinatorial constraint set (e.g., an
+        element in a matroid, or an edge in a matching on a graph), and the gambler
+        can only collect sets of elements which are feasible in this constraint
+        set. The game stops when either the gambler can no longer accept
+        another
+        element while remaining feasible, or all elements have been presented
+        (whichever occurs first).</li>
+    <li>The gambler measures her performance against an all-knowing prophet, who always
+        collects the feasible set of elements with maximum reward. The
+        objective is to design a policy for the gambler such that she collects,
+    in expectation, a constant fraction of the prophet's expected reward.</li>
+    <li>Even when the gambler knows the distributions of all rewards, she
+        cannot hope to obtain an expected reward of more than half of the prophet's expected reward.
+    This can be seen, for instance, by considering the objective of collecting
+    a single item, in the case where the first presented reward is
+    deterministically 1, and the second reward is 0 w.p. 1-1/n, and n w.p. 1/n.
+    In this case, the gambler (no matter her policy) can never obtain expected
+    reward greater than 1, but the
+    prophet collects a reward of 2-1/n.</li>
+    <li>Remarkably, even under general matroid constraints, 
+       <a href="https://arxiv.org/abs/1201.4764">KW'12</a> showed tht there exists a
+        policy which collects in expectation half of the prophet's expected
+        reward, assuming all reward distributions are known in advance.</li>
+    <li>However, assuming full distributional knowledge is a strong assumption.
+    What if the gambler only had access to a single sample from each reward
+    distribution, instead of full distributional access? It turns out that this
+    setting is intimately related to the secretary problem (a related problem
+    in optimal stopping theory, where the rewards are adversarially chosen, but
+    the order is uniformly random). In fact, there is a black-box reduction
+    by <a href="https://arxiv.org/abs/1307.3736">AKW'14</a>
+    which allows one to obtain policies for the single-sample prophet
+    inequality problem from a large class of policies for the secretary problem
+    (these are so-called order-oblivious secretary policies).</li>
+    <li>This reduction comes at a cost, and, in particular, one cannot
+    hope to obtain half of the prophets expected reward directly through this
+    reduction. However, practically all known single-sample prophet
+    inequalities to date are through this reduction.</li>
+    <li>However, <a href="https://arxiv.org/abs/1911.07945">RWW'20</a>
+        showed that, given only a single sample from each distribution, the
+        single-choice prophet inequality can be solved optimally! In fact,
+        their policy is remarkably simple &#151; accept the first reward exceeding
+    the largest observed sample value, if such a reward exists.</li>
+</ul>
+Summary:
+<ul>
+    <li>Taking inspiration from these recent results for the single-choice
+        single-sample prophet inequality (SSPI), we ask how to obtain improved
+        SSPIs without relying on the black-box
+        reduction of <a href="https://arxiv.org/abs/1307.3736">AKW'14</a>.</li>
+    <li>Our first contribution is a general framework for analyzing the
+        competitiveness
+        SSPI policies against a greedy-like prophet
+    solution. Using this framework, we obtain the first SSPI for general
+    (non-bipartite) matching environments, as well as improved competitive
+    ratios for transversal and truncated partition matroids.</li>
+    <li>Our second contribution is inspired by the observation that many
+        secretary policies for matroids decompose the problem into independent
+    rank-1 instances. We provide a meta-theorem that allows us to obtain
+    improved competitive guarantees (most by a factor of 2) for most of the
+    matroids considered in <a href="https://arxiv.org/abs/1307.3736">AKW'14</a>
+    which satisfy this decomposition property, leveraging the recent
+    improvements of <a href="https://arxiv.org/abs/1911.07945">RWW'20</a>.</li>
+    <li>There are still</li>
+</ul>
+<br>
+</li>
+</div>
+
+<div class="selected">
+    <li> 
+        <a href="https://papers.nips.cc/paper/2020/hash/7d3d5bcad324d3edc08e40738e663554-Abstract.html">
             Mix and Match: An
             Optimistic Tree-Search Approach for Learning Models from Mixture
             Distributions</a>
   <br>Matthew Faw, Rajat Sen, Karthikeyan Shanmugam, Constantine Caramanis, and Sanjay Shakkottai.
-<br>In submission.
+<br>Accepted at NeurIPS 2020.
 <br>Summary:
 <ul>
     <li>We introduce a new framework to handle distribution shift, assuming
@@ -261,6 +346,13 @@ I've taken the following classes while at UT Austin:
         <li>M 393C &#151; Markov Chains & Mixing Times (Prof. Joe Neeman)</li>
         <li>SDS 384-11 &#151; Theoretical Statistics (Prof. Purnamrita Sarkar)</li>
     </ul>
+    <li>Fall 2020:</li>
+    <ul>
+        <li>CS 395T &#151; Sublinear Algorithms (Prof. Eric Price)</li>
+        <li>EE 381V &#151; Combinatorial Optimization (Prof. Constantine
+            Caramanis)</li>
+        <li>EE 381V &#151; Advanced Probability (Prof. Sanjay Shakkottai)</li>
+    </ul>
 </ul>
 </div>
 
@@ -272,6 +364,8 @@ My coauthors include:
 <a href="https://elijahcole.me/">Elijah Cole</a>,
 <a href="https://schfan.github.io/">Songchun Fan</a>,
 <a href="http://people.duke.edu/~bcl15/index.html">Benjamin Lee</a>,
+<a href="https://www.cs.utexas.edu/~papadig/">Orestis Papadigenopoulos</a>,
+<a href="https://www.cs.drexel.edu/~ep556/">Emmanouil Pountourakis</a>,
 <a href="https://rajatsen91.github.io/publication/">Rajat Sen</a>,
 <a href="https://sites.google.com/view/sanjay-shakkottai/">Sanjay
     Shakkottai</a>,
