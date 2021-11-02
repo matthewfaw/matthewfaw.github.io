@@ -48,3 +48,24 @@ function showAll(toggle){
   }
   return true;
 }
+
+function showAllInfo(toggle){
+  var elem;
+  if (toggle){
+    document.getElementById('toggleInfo').innerHTML='<a href="javascript:void(0)" onclick="showAllInfo(false)">More info</a>';
+  } else {
+    document.getElementById('toggleInfo').innerHTML='<a href="javascript:void(0)" onclick="showAllInfo(true)">Less info</a>';
+  }
+
+  var elems = document.getElementsByClassName("regularInfo")
+  for (let elemId=0; elemId < elems.length; elemId++) {
+      var elem = elems.item(elemId);
+      if (toggle) {
+          elem.style.display = "none";
+      } else {
+          elem.style.display = "block";
+      }
+  }
+
+  return true;
+}
