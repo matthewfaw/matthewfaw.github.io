@@ -101,6 +101,15 @@ variations of multi-armed bandits, (limited information) prophet inequalities,
 <h2>News</h2>
 <div id="sec-news">
   <ul>
+      <li>(2/11/22) New paper on arXiv, <a
+              href="https://arxiv.org/abs/2202.05791">The Power of Adaptivity in SGD: Self-Tuning Step Sizes with Unbounded Gradients and Affine Variance</a>!</li>
+      <li>(1/10/22) I presented our work on <a href="">Single Sample Prophet
+              Inequalities</a> at <a
+              href="https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73693">SODA'22</a>.
+          Here are the <a href="files/sspiSoda22.pdf">slides</a>.
+          <li>(11/2/21) I attended the <a
+                                             href="https://simons.berkeley.edu/workshops/schedule/18210">Joint
+              IFML/CCSI Symposium</a> at Simons in UC Berkeley.</li>
       <li>(10/2/21) One paper accepted to SODA 2022: <a href="https://arxiv.org/abs/2111.03174">Single Sample Prophet Inequalities via Greedy-Ordered
               Selection</a> (supersedes <a href="https://arxiv.org/abs/2103.13089">Single-Sample Prophet Inequalities Revisited</a>)</li>
       <li>(3/24/21) New paper on arXiv, <a
@@ -133,7 +142,62 @@ variations of multi-armed bandits, (limited information) prophet inequalities,
 
 <div class="selected">
     <li> 
-        Learning To Maximize Welfare with a Reusable Resource (In preparation)
+        <a href="https://arxiv.org/abs/2202.05791">
+            The Power of Adaptivity in SGD: Self-Tuning Step Sizes with Unbounded Gradients and Affine Variance</a>
+  <br>Matthew Faw*, Isidoros Tziotis*, Constantine Caramanis, Aryan Mokhtari,
+  Sanjay Shakkottai, Rachel Ward (* = Equal contribution)
+  <br>In submission.
+<div class="regularInfo">
+<br>Background/Setup:
+<ul>
+    <li>We consider the problem of minimizing a smooth, (possibly) non-convex
+        loss function over an unbounded domain using an adaptively-chosen SGD schedule (i.e., one where
+        the step size depends on the current and past stochastic gradients).</li>
+    <li>Optimal rates for SGD in this setting are well-known when the variance
+        of the stochastic gradients has affine scaling, and the
+        step-size schedule is fixed and is tuned with the smoothness and noise
+        parameters.</li>
+    <li>While prior works on adaptive SGD methods show that similar
+convergence rates are obtainable without knowledge of these tuning
+parameters, all prior analyses rely on at least one of the following
+assumptions:
+        <ul>
+            <li>Uniformly-bounded gradient norms.</li>
+            <li>Uniformly-bounded stochastic gradient variance (or even noise
+                support).</li>
+            <li>Conditional independence between the step size schedule and
+                current stochastic gradient.</li>
+        </ul>
+    <li>The main takeaway from these works is that, under these additional
+        assumptions, these adaptive SGD methods converge without any tuning of
+    the SGD step size.</li>
+</ul>
+</div>
+<div class="regularInfo">
+<br>Summary:
+<ul>
+    <li>The starting point of our work is to ask: Are these
+        additional assumptions necessary to obtain the benefits of adaptive SGD
+    methods? Or can we show that adaptive SGD methods still enjoy their
+    self-tuning benefits under the same assumptions as SGD needs?</li>
+    <li>We show that AdaGrad-Norm converges at the same rate (up to
+        poly-logarithmic factors) as an optimally-tuned SGD, and under
+        exactly the same assumptions as needed in the SGD analysis. Moreover,
+        the adaptive step sizes can be chosen without knowledge of the
+        smoothness or gradient noise parameters. Thus, AdaGrad-Norm enjoys the
+    "best of both worlds."</li>
+    <li>This is, to the best of our knowledge, the first convergence rate for
+        an adaptive SGD method which does not require a uniform bound on the
+        gradient norm or a uniform variance bound.</li>
+</ul>
+</div>
+<br>
+</li>
+</div>
+<br>
+<div class="selected">
+    <li> 
+        Learning To Maximize Welfare with a Reusable Resource
   <br>Matthew Faw*, Orestis Papadigenopoulos*, Constantine Caramanis, and Sanjay
   Shakkottai (* = Equal contribution)
 <br>In submission.
@@ -155,7 +219,8 @@ variations of multi-armed bandits, (limited information) prophet inequalities,
   <br>Constantine Caramanis, Paul Duetting, Matthew Faw, Federico Fusco,
   Philip Lazos, Stefano Leonardi, Orestis Papadigenopoulos, and
   Emmanouil Pountourakis, Rebecca Reiffenhauser (Alphabetical order)
-  <br>ACM-SIAM Symposium on Discrete Algorithms, <b>SODA'22</b>, Alexandria, VA, USA.
+  <br>ACM-SIAM Symposium on Discrete Algorithms, <b>SODA'22</b>,
+  <strike>Alexandria, VA, USA</strike> (virtual).
 <div class="regularInfo">
 <br>Background/Setup:
 <ul>
@@ -238,9 +303,9 @@ variations of multi-armed bandits, (limited information) prophet inequalities,
 
 <div class="selected">
     <li> 
-        Multi-Source Domain Adaptation Under Sparsity (In preparation)
+        Multi-Source Domain Adaptation Under Sparsity
   <br>Matthew Faw, Karthikeyan Shanmugam, Constantine Caramanis, and Sanjay Shakkottai.
-<br>In submission.
+<br>In preparation.
 <div class="regularInfo">
 <br>Summary:
 <ul>
@@ -257,7 +322,7 @@ variations of multi-armed bandits, (limited information) prophet inequalities,
             Optimistic Tree-Search Approach for Learning Models from Mixture
             Distributions</a>
   <br>Matthew Faw, Rajat Sen, Karthikeyan Shanmugam, Constantine Caramanis, and Sanjay Shakkottai.
-  <br>Advances in Neural Information Processing Systems, <b>NeurIPS'20</b> (virtual).
+  <br>Advances in Neural Information Processing Systems, <b>NeurIPS'20</b>, (virtual).
 <div class="regularInfo">
 <br>Summary:
 <ul>
@@ -306,6 +371,14 @@ variations of multi-armed bandits, (limited information) prophet inequalities,
 </div>
 </ul>
 
+</div>
+
+<h2>Conference Reviewing</h2> 
+<div id="sec-confrevs">
+<ul>
+    <li>2022: AISTATS (<a href="https://virtual.aistats.org/Conferences/2022/Reviewers"><em>Top 10% reviewer</em></a>), ICLR</li>
+    <li>2021: AISTATS, ICML, NeurIPS</li>
+</ul>
 </div>
 
 <h2>Other Projects</h2> 
@@ -411,6 +484,7 @@ My coauthors include:
 <a href="http://www.plazos.me/">Philip Lazos</a>,
 <a href="http://people.duke.edu/~bcl15/index.html">Benjamin Lee</a>,
 <a href="https://sites.google.com/a/uniroma1.it/stefanoleonardi-eng/home">Stefano Leonardi</a>,
+<a href="https://sites.utexas.edu/mokhtari/">Aryan Mokhtari</a>,
 <a href="https://www.cs.utexas.edu/~papadig/">Orestis Papadigenopoulos</a>,
 <a href="https://www.cs.drexel.edu/~ep556/">Emmanouil Pountourakis</a>,
 <a href="https://www.diag.uniroma1.it/users/rebecca_reiffenhauser">Rebecca Reiffenhauser</a>,
@@ -419,6 +493,8 @@ My coauthors include:
     Shakkottai</a>,
 <a href="https://sites.google.com/a/utexas.edu/karthiksh/">Karthikeyan
     Shanmugam</a>,
+<a href="https://scholar.google.com/citations?user=F8NzUGgAAAAJ">Isidoros Tziotis</a>,
+<a href="https://sites.google.com/prod/view/rward">Rachel Ward</a>,
 and
 <a href="https://ece.uwaterloo.ca/~smzahedi/">Seyed Zahedi</a>.
 </div>
