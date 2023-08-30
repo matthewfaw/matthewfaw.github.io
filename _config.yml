@@ -13,8 +13,8 @@ permalink:        pretty
 title:            Matthew Faw
 tagline:          'Homepage'
 description:      'Ph.D. Candidate at UT Austin'
-url:              'https://matthewfaw.github.io'
-baseurl:          '/'
+url:              https://matthewfaw.github.io
+baseurl:          /
 
 google_analytics: 'UA-99308138-1'
 
