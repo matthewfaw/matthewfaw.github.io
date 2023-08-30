@@ -1,0 +1,53 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+          <a href="{{ site.baseurl }}"><img class=sidebar-img src="{{
+              site.avatar | relative_url }}" /></a>
+        <a class="sidebar-name" href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+
+      <a class="sidebar-nav-item" href="{{ 'public/resume.pdf' | relative_url }}"
+          target="_blank">CV</a>
+
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign pages_list = site.pages | sort: 'order' %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{%
+                       endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+
+      <span class="sidebar-nav-item-sm"><i class="far fa-envelope"></i> {{ site.email.text }}</span>
+
+    </nav>
+
+        <!-- Social Media Icons -->
+    <span style="display: table; margin: 0 auto;">
+        <a class="sidebar-fab" href="{{ site.scholar.url }}" target="_blank"><i class="fab
+                fa-company fa-google fa-2x"></i></a>&nbsp;
+        <a class="sidebar-fab" href="https://twitter.com/{{ site.twitter.user }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;
+        <a class="sidebar-fab" href="https://www.researchgate.net/profile/{{ site.researchgate.user }}" target="_blank"><i
+                class="fab fa-brands fa-researchgate fa-2x"></i></a>&nbsp;
+        <a class="sidebar-fab" href="https://github.com/{{ site.github.user }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>&nbsp;
+    </span>
+
+
+
+    <!--<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>-->
+  </div>
+</div>

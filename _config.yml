@@ -1,0 +1,51 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rogue
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+
+# Permalinks
+permalink:        pretty
+  #relative_permalinks: true
+
+# Setup
+title:            Matthew Faw
+tagline:          'Homepage'
+description:      'Ph.D. Candidate at UT Austin'
+url:              'https://matthewfaw.github.io'
+baseurl:          '/'
+
+google_analytics: 'UA-99308138-1'
+
+avatar: 'public/mev2.jpeg'
+favicon: 'public/favicon.ico'
+
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         10
+paginate_path: /page:num/
+
+# Custom vars
+version:          2.1.0
+
+github:
+  user:           matthewfaw
+  repo:           https://github.com/matthewfaw
+
+twitter:
+  user: matthew_faw
+
+researchgate:
+  user: Matthew_Faw
+
+email:
+  personal: matthewfaw@gmail.com
+  school: matthewfaw@utexas.edu
+  text: matthewfaw[at]utexas.edu
+
+scholar:
+  url: https://scholar.google.com/citations?user=uzyYjPkAAAAJ&view_op=list_works&sortby=pubdate

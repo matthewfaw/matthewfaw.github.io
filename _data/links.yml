@@ -1,0 +1,60 @@
+colt23:
+  arxiv: 'https://arxiv.org/abs/2302.06570'
+  proceedings: 'https://proceedings.mlr.press/v195/faw23a.html'
+  session: 'https://learningtheory.org/colt2023/abstracts.html#Stochastic%20optimization'
+  slides: 'public/beyondUniformColt23.pdf'
+colt22:
+  arxiv: 'https://arxiv.org/abs/2202.05791'
+  proceedings: 'https://proceedings.mlr.press/v178/faw22a.html'
+  twitter: 'https://twitter.com/matthew_faw/status/1543600637040025601?s=20&t=X5Vm3_N6W42BstJ7RXIhfQ'
+  slides: 'public/adaptiveSgdColt22.pdf'
+  recording: 'https://slideslive.com/38985577/the-power-of-adaptivity-in-sgd-selftuning-step-sizes-with-unbounded-gradients-and-affine-variance'
+  session: 'https://learningtheory.org/colt2022/abstracts.html#Optimization%20I'
+sigmetrics22:
+  journal: 'https://dl.acm.org/doi/abs/10.1145/3530893'
+  proceedings: 'https://dl.acm.org/doi/abs/10.1145/3489048.3530960'
+  session: 'https://www.sigmetrics.org/sigmetrics2022/program.html#session6A'
+  slides: 'public/sigmetrics22.pdf'
+soda22:
+  arxiv: 'https://arxiv.org/abs/2111.03174'
+  proceedings: 'https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.54'
+  v1: 'https://arxiv.org/abs/2103.13089'
+  v1other: 'https://arxiv.org/abs/2104.02050'
+  session: 'https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=73693'
+  slides: 'public/sspiSoda22.pdf'
+neurips20:
+  arxiv: 'https://arxiv.org/abs/1907.10154'
+  proceedings: 'https://papers.nips.cc/paper/2020/hash/7d3d5bcad324d3edc08e40738e663554-Abstract.html'
+tocs17:
+  proceedings: 'https://dl.acm.org/doi/10.1145/3014428'
+
+uwworkshop23:
+  link: 'https://ifml-uw.github.io/IFML-Workshop-2023/'
+simonsworkshop22:
+  link: 'https://simons.berkeley.edu/workshops/joint-ifmldata-driven-decision-processes-workshop'
+santafeworkshop22:
+  link: 'https://www.santafe.edu/events/joint-ifmlsfi-meeting-foundations-machine-learning'
+simonsworkshop21:
+  link: 'https://old.simons.berkeley.edu/workshops/schedule/18210'
+
+nxp:
+  announcement: 'https://www.ece.utexas.edu/news/students-rasha-el-jaroudi-and-matthew-faw-awarded-ut-nxp-foundation-fellowships'
+  website: 'https://www.nxp.com/company/about-nxp/our-team-members/giving-back-to-our-communities/nxp-foundation:NXP-FOUNDATION'
+
+reviewaward:
+  aistats22: 'https://virtual.aistats.org/Conferences/2022/Reviewers'
+  iclr22: 'https://iclr.cc/Conferences/2022/Reviewers'
+  neurips22: 'https://neurips.cc/Conferences/2022/ProgramCommittee'
+
+otherprojects:
+  igem:
+    announcement: 'https://gersbach.bme.duke.edu/news/duke-igem-team-awarded-gold-medal-2014-igem-giant-jamboree'
+    competition: 'https://igem.org/'
+    website: 'https://2014.igem.org/Team:Duke'
+  linalg:
+    coxeter: 'https://github.com/matthewfaw/papers/blob/master/math/coxeter-groups-mcf28.pdf'
+  software:
+    vooga: 'https://github.com/matthewfaw/voogasalad_voogabonds'
+    pitchfork: 'https://github.com/matthewfaw/best-new-music-tracker'
+    spotify: 'https://github.com/matthewfaw/spotify-scrobbler'
+    relationships: 'https://github.com/matthewfaw/spotify-data-analysis'
