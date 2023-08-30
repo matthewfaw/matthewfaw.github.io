@@ -2,9 +2,9 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-          <a href="{{ site.baseurl }}"><img class=sidebar-img src="{{
+          <a href="{{ site.baseurl | relative_url }}"><img class=sidebar-img src="{{
               site.avatar | relative_url }}" /></a>
-        <a class="sidebar-name" href="{{ site.baseurl }}">
+        <a class="sidebar-name" href="{{ site.baseurl | relative_url }}">
           {{ site.title }}
         </a>
       </h1>
@@ -12,7 +12,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl | relative_url }}">Home</a>
 
       <a class="sidebar-nav-item" href="{{ 'public/resume.pdf' | relative_url }}"
           target="_blank">CV</a>
