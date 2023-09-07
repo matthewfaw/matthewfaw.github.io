@@ -168,7 +168,21 @@ img.sidebar-img {
     width: 100%;
     max-width: 300px;
 }
-
+@media (max-height: 42em) and (min-width: 58em) {
+    img.sidebar-img {
+        display: none;
+    }
+}
+@media (max-height: 38em) and (min-width: 48em) {
+    img.sidebar-img {
+        display: none;
+    }
+}
+@media (max-height: 55em) {
+    img.sidebar-img {
+        width: 65%;
+    }
+}
 
 /* Sticky sidebar
  *
