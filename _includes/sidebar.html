@@ -1,5 +1,3 @@
-<div class="sidebar">
-  <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
           <a href="/"><img class=sidebar-img src="{{
@@ -10,7 +8,7 @@
       </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
-
+    <hr>
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
 
@@ -32,22 +30,15 @@
         {% endif %}
       {% endfor %}
 
-      <span class="sidebar-nav-item-sm"><i class="far fa-envelope"></i> {{ site.email.text }}</span>
+      <span class="sidebar-nav-item-sm fw-lighter text-break"><i class="far fa-envelope"></i> {{ site.email.text }}</span>
 
     </nav>
-
-        <!-- Social Media Icons -->
-    <span style="display: table; margin: 0 auto;">
-        <a class="sidebar-fab" href="{{ site.scholar.url }}" target="_blank"><i class="fab
+    <hr>
+    <div class="row">
+        <a class="col-sm-2 sidebar-fab" href="{{ site.scholar.url }}" target="_blank"><i class="fab
                 fa-company fa-google fa-2x"></i></a>&nbsp;
-        <a class="sidebar-fab" href="https://twitter.com/{{ site.twitter.user }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;
-        <a class="sidebar-fab" href="https://www.researchgate.net/profile/{{ site.researchgate.user }}" target="_blank"><i
+        <a class="col-sm-2 sidebar-fab" href="https://twitter.com/{{ site.twitter.user }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>&nbsp;
+        <a class="col-sm-2 sidebar-fab" href="https://www.researchgate.net/profile/{{ site.researchgate.user }}" target="_blank"><i
                 class="fab fa-brands fa-researchgate fa-2x"></i></a>&nbsp;
-        <a class="sidebar-fab" href="https://github.com/{{ site.github.user }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>&nbsp;
-    </span>
-
-
-
-    <!--<p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>-->
-  </div>
-</div>
+        <a class="col-sm-2 sidebar-fab" href="https://github.com/{{ site.github.user }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>&nbsp;
+    </div>

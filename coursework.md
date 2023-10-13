@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Coursework
-order: 3
+order: 4
 ---
 
  I've taken the following classes while at UT Austin:

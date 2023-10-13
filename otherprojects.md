@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Other Projects
-order: 4
+order: 5
 ---
 
 -  During my freshman year, I worked in a synthetic biology lab, where we worked to use CRISPR and molecular titration techniques to demonstrate ultrasensitive responses in E.coli cells as a proof-of-concept for building biological circuits to perform logical operations. I also designed some 3D-printed lab equipment to help make biology lab equipment more affordable/accessible, and co-designed and taught the first ever house course on synthetic biology at Duke! Our team won a <a href="{{ site.data.links.otherprojects.igem.website }}">gold medal</a> at the <a href="{{ site.data.links.otherprojects.igem.competition }}">International Genetically Engineered Machine Competition</a>! You can learn more about our project <a href="{{ site.data.links.otherprojects.igem.website }}">here</a>!
