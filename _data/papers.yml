@@ -1,5 +1,11 @@
 
 items:
+ - title: 'On Mitigating Unconscious Bias through Bandits with Evolving Biased Feedback'
+   linkkey: 'neurips23'
+   linkver: 'poster'
+   authors: ['Matthew Faw', 'Constantine Caramanis', 'Sanjay Shakkottai', 'Jessica Hoffmann']
+   contrib: ''
+   venue: ['<em>NeurIPS 2023 Workshop: Algorithmic Fairness through the Lens of Time</em>', "<b>NeurIPS'23 Workshop</b>", 'New Orleans, LA']
  - title: 'Beyond Uniform Smoothness: A Stopped Analysis of Adaptive SGD'
    linkkey: 'colt23'
    linkver: 'proceedings'
