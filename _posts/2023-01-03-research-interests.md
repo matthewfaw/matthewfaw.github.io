@@ -4,7 +4,7 @@ title: Research Interests
 excerpt_separator: <!--more-->
 ---
 
-My interests lie broadly in stochastic optimization and sequential decision-making algorithms.
+My interests lie broadly in the design and analysis of stochastic optimization and sequential decision-making algorithms.
 I am particularly interested in: 
 - The power and limitations of adaptive optimization algorithms ([i]({{ site.data.links.colt22.proceedings }}),[ii]({{ site.data.links.colt23.proceedings }}))
 - Fairness in sequential decision-making, and decision-making in the presence of [biased feedback]({{ site.data.links.neurips23.poster }})
