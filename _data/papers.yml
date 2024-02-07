@@ -5,7 +5,8 @@ items:
    linkver: 'poster'
    authors: ['Matthew Faw', 'Constantine Caramanis', 'Sanjay Shakkottai', 'Jessica Hoffmann']
    contrib: ''
-   venue: ['<em>NeurIPS 2023 Workshop: Algorithmic Fairness through the Lens of Time</em>', "<b>NeurIPS'23 Workshop</b>", 'New Orleans, LA']
+   venue: ['Preliminary version: <em>NeurIPS 2023 Workshop: Algorithmic Fairness through the Lens of Time</em>', "<b>NeurIPS'23 Workshop</b>", 'New Orleans, LA']
+   status: 'inSubmission'
  - title: 'Beyond Uniform Smoothness: A Stopped Analysis of Adaptive SGD'
    linkkey: 'colt23'
    linkver: 'proceedings'
@@ -13,6 +14,7 @@ items:
    authors: ['Matthew Faw', 'Litu Rout', 'Constantine Caramanis', 'Sanjay Shakkottai']
    contrib: ''
    venue: ['<em>Conference on Learning Theory</em>', "<b>COLT'23</b>", 'Bangalore, India']
+   status: 'published'
  - title: 'The Power of Adaptivity in SGD: Self-Tuning Step Sizes with Unbounded Gradients and Affine Variance'
    linkkey: 'colt22'
    linkver: 'proceedings'
@@ -21,6 +23,7 @@ items:
    contrib: ''
    notes: ['Check out my <a href="https://twitter.com/matthew_faw/status/1543600637040025601?s=20&t=X5Vm3_N6W42BstJ7RXIhfQ">Twitter thread</a> on this paper.', 'Here are some <a href="public/adaptiveSgdColt22.pdf">slides</a> on this result, and an <a href="https://slideslive.com/38985577/the-power-of-adaptivity-in-sgd-selftuning-step-sizes-with-unbounded-gradients-and-affine-variance">18-minute recorded talk</a> by Isidoros and me.']
    venue: ['<em>Conference on Learning Theory</em>', "<b>COLT'22</b>", 'London, UK']
+   status: 'published'
  - title: 'Learning To Maximize Welfare with a Reusable Resource'
    linkkey: 'sigmetrics22'
    linkver: 'journal'
@@ -28,6 +31,7 @@ items:
    authors: ['Matthew Faw', 'Orestis Papadigenopoulos', 'Constantine Caramanis', 'Sanjay Shakkottai']
    contrib: ''
    venue: ['<em>ACM SIGMETRICS / IFIP PERFORMANCE 2022</em>', "<b>SIGMETRICS'22</b>", 'Mumbai, India']
+   status: 'published'
  - title: 'Single Sample Prophet Inequalities via Greedy-Ordered Selection'
    linkkey: 'soda22'
    linkver: 'proceedings'
@@ -35,16 +39,19 @@ items:
    contrib: '<i class="fa-solid fa-arrow-down-a-z"></i>'
    notes: ['Supersedes and merges papers <a href="https://arxiv.org/abs/2103.13089">(i)</a> and <a href="https://arxiv.org/abs/2104.02050">(ii)</a>']
    venue: ['<em>ACM-SIAM Symposium on Discrete Algorithms</em>', "<b>SODA'22</b>", '<s>Alexandria, VA, USA</s> (virtual)']
+   status: 'published'
  - title: 'Mix and Match: An Optimistic Tree-Search Approach for Learning Models from Mixture Distributions'
    linkkey: 'neurips20'
    linkver: 'proceedings'
    authors: ['Matthew Faw', 'Rajat Sen', 'Karthikeyan Shanmugam', 'Constantine Caramanis', 'Sanjay Shakkottai']
    contrib: ''
    venue: ['<em>Advances in Neural Information Processing Systems</em>', "<b>NeurIPS'20</b>", '(virtual)']
+   status: 'published'
  - title: 'Computational Sprinting: Architecture, Dynamics, and Strategies'
    linkkey: 'tocs17'
    linkver: 'proceedings'
    authors: ['Seyed Majid Zahedi', 'Songchun Fan', 'Matthew Faw', 'Elijah Cole', 'Benjamin C. Lee']
    contrib: ''
    venue: ['<em>ACM Transactions on Computer Systems</em>', "<b>TOCS'17</b>", 'Volume 34 Issue 4, January 2017']
+   status: 'published'
 
