@@ -4,9 +4,10 @@ title: Background
 order: 1
 ---
 
-I am a final-year Ph.D. candidate in the ECE department at The University of Texas at Austin, where I am very fortunate to be advised by [Sanjay Shakkottai](https://sites.google.com/view/sanjay-shakkottai/) and [Constantine Caramanis](https://caramanis.github.io/).
+I am an ARC Postdoctoral Fellow at Georgia Institute of Technology, working with [Siva Theja Maguluri](https://sites.google.com/site/sivatheja/home) and [Sahil Singla](https://faculty.cc.gatech.edu/~ssingla7/).
 
-Prior to joining UT Austin, I spent four years at Duke University, where I graduated with majors in Electrical & Computer Engineering, Computer Science, and Mathematics. During my time there, I had the great fortune of working in several research labs:
+Prior to joining Georgia Tech, I completed my Ph.D. in the ECE department at The University of Texas at Austin, where I was very fortunate to be advised by [Sanjay Shakkottai](https://sites.google.com/view/sanjay-shakkottai/) and [Constantine Caramanis](https://caramanis.github.io/).
+Before that, I received my bachelor's degree at Duke University, where I graduated with majors in Electrical & Computer Engineering, Computer Science, and Mathematics. During my time there, I had the great fortune of working in several research labs:
 - **Datacenter Architecture**, Advisor: [Ben Lee](https://www.seas.upenn.edu/~leebcc/index.html), *January-December 2016*
     - Evaluated performance and economic viability of several strategies for system-level computational sprinting for Spark applications. 
     - Worked on extensions for co-locating batch and latency-critical workloads.

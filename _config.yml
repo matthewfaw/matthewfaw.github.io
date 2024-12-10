@@ -12,7 +12,7 @@ permalink:        pretty
 # Setup
 title:            Matthew Faw
 tagline:          'Homepage'
-description:      'Ph.D. Candidate at UT Austin'
+description:      'ARC Postdoctoral Fellow at Georgia Tech'
 url:              https://matthewfaw.github.io
 baseurl:          /
 
@@ -44,8 +44,8 @@ researchgate:
 
 email:
   personal: matthewfaw@gmail.com
-  school: matthewfaw@utexas.edu
-  text: matthewfaw [at] utexas.edu
+  school: mfaw3@gatech.edu
+  text: mfaw3 [at] gatech.edu
 
 scholar:
   url: https://scholar.google.com/citations?user=uzyYjPkAAAAJ&view_op=list_works&sortby=pubdate
