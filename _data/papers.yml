@@ -1,12 +1,19 @@
 
 items:
  - title: 'On Mitigating Unconscious Bias through Bandits with Evolving Biased Feedback'
-   linkkey: 'neurips23'
-   linkver: 'poster'
-   authors: ['Matthew Faw', 'Constantine Caramanis', 'Sanjay Shakkottai', 'Jessica Hoffmann']
+   linkkey: 'icml25'
+   linkver: 'biasedbandits'
+   authors: ['Matthew Faw', 'Constantine Caramanis', 'Jessica Hoffmann']
    contrib: ''
-   venue: ['Preliminary version: <em>NeurIPS 2023 Workshop: Algorithmic Fairness through the Lens of Time</em>', "<b>NeurIPS'23 Workshop</b>", 'New Orleans, LA']
-   status: 'inSubmission'
+   venue: ['International Conference on Machine Learning', "<b>ICML'25</b>", 'Vancouver, Canada (Preliminary version appeared in: <em>NeurIPS 2023 Workshop: Algorithmic Fairness through the Lens of Time</em>)']
+   status: 'published'
+ - title: 'In-Context Fine-Tuning for Time-Series Foundation Models'
+   linkkey: 'icml25'
+   linkver: 'tfm'
+   authors: ['Matthew Faw', 'Rajat Sen', 'Yichen Zhou', 'Abhimanyu Das']
+   contrib: ''
+   venue: ['International Conference on Machine Learning', "<b>ICML'25</b>", 'Vancouver, Canada']
+   status: 'published'
  - title: 'Beyond Uniform Smoothness: A Stopped Analysis of Adaptive SGD'
    linkkey: 'colt23'
    linkver: 'proceedings'

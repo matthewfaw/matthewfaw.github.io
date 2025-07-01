@@ -1,3 +1,6 @@
+icml25:
+  tfm: 'https://openreview.net/forum?id=uxzgGLWPj2'
+  biasedbandits: 'https://arxiv.org/abs/2503.05662'
 neurips23:
   poster: 'https://neurips.cc/virtual/2023/77774'
   video: 'https://neurips.cc/virtual/2023/77775'
