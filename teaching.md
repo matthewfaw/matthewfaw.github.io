@@ -6,6 +6,11 @@ order: 2
 
 I have had the great fortune of teaching a variety of classes during my undergraduate and graduate careers, in capacities ranging from teaching assistant to instructor. Through my teaching, I strive to make the classroom a more welcoming place for all students, and particularly shy students who often are overlooked in traditional classroom formats. I have found that simple acts, such as brief, individual interactions with each student periodically throughout a semester, can have a noticeable positive impact on their enjoyment of and engagement with the course.
 
+**At Georgia Tech**
+- Spring 2026: ISyE 3770 — Statistics and Applications (Head Instructor)
+    - Taught introductory probability and statistics course to (approximately)
+      75 undergraduate students.
+
 **At UT Austin**
 - Fall 2018-Spring 2019: EE 460J — Data Science Lab (Teaching Assistant)
     - Led lab sessions, and graded homeworks and exams

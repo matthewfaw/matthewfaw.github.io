@@ -23,6 +23,9 @@ Before that, I received my bachelor's degree at Duke University, where I graduat
 
 I've also spent some time in industry. During the summer of 2016, I was a software engineering intern at [MathWorks](https://www.mathworks.com) on the Stateflow Semantics team. Between undergrad and grad school, I also spent a year working as a software engineer at a healthcare software startup called [Verato](https://verato.com/):
 
+- **Student Researcher and Visiting Researcher**, *[Google Research](https://research.google.com/)*, Mountain View, CA, *June-September 2024, March-September 2025*
+    - Designed, trained, and evaluated in-context learning approaches to
+      time-series forecasting with Transformers.
 - **Software Engineer**, *[Verato](https://verato.com/)*, McLean, VA, *June 2017-July 2018*
     - Co-designed and built a custom continuous integration system using Kubernetes, capable of testing hundreds of simultaneous builds of the software stack.
     - Designed software to maintain 300M entry Mongo database and Solr search engine.
