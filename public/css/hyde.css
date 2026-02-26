@@ -103,7 +103,7 @@ a:link, a:hover, a:focus {
   color: #fff;
 }
 
-.sidebar {
+.sidebar, .navbar {
   color: rgba(255,255,255,.5);
     /*position: fixed;*/
     /*top: 0;*/
@@ -168,7 +168,6 @@ a:link, a:hover, a:focus {
     font-weight: bold;
 }
 
-
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
@@ -192,6 +191,7 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+a.sidebar-nav-link:hover,
 a.sidebar-fab:hover,
 a.sidebar-fab:focus {
   color: #405068;

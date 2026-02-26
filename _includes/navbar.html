@@ -8,18 +8,21 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <hr>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="navbbar-nav-item">
                 <a class="navbar-nav-item{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="sidebar-nav-item" href="{{ 'public/cv.pdf' | relative_url }}"
-                  target="_blank">CV</a>
+            <li class="navbar-nav-item">
+                <li class="navbar-nav-item">
+                  <a class="navbar-nav-link" href="{{ 'public/cv.pdf' | relative_url }}"
+                  target="_blank">CV</a> / <a class="navbar-nav-link" href="{{ 'public/resume.pdf' | relative_url }}"
+                  target="_blank">Resume</a>
+                </li>
             </li>
           {% assign pages_list = site.pages | sort: 'order' %}
           {% for node in pages_list %}
             {% if node.title != null %}
               {% if node.layout == "page" %}
-              <li class="nav-item">
+              <li class="navbar-nav-item">
                 <a class="navbar-nav-item{% if page.url == node.url %} active{%
                            endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
               </li>
