@@ -1,5 +1,10 @@
 
 items:
+ - title: 'Online Allocation Using Few Samples'
+   authors: ['Matthew Faw', 'Sahil Singla', 'Yifan Wang']
+   contrib: '<i class="fa-solid fa-arrow-down-a-z"></i>'
+   status: 'inSubmission'
+   venue: ['In submission, 2026']
  - title: 'Online Control with Multiple Sensors'
    authors: ['Matthew Faw', 'Siva Theja Maguluri']
    contrib: ''
@@ -47,7 +52,7 @@ items:
  - title: 'Single-Sample Prophet Inequalities via Greedy-Ordered Selection'
    linkkey: 'soda22'
    linkver: 'proceedings'
-   authors: ['Constantine Caramanis', 'Paul D&uuml;tting', '<b>F</b>', 'Federico Fusco', 'Philip Lazos', 'Stefano Leonardi', 'Orestis Papadigenopoulos', 'Emmanouil Pountourakis', 'Rebecca Reiffenh&auml;user']
+   authors: ['Constantine Caramanis', 'Paul D&uuml;tting', 'Matthew Faw', 'Federico Fusco', 'Philip Lazos', 'Stefano Leonardi', 'Orestis Papadigenopoulos', 'Emmanouil Pountourakis', 'Rebecca Reiffenh&auml;user']
    contrib: '<i class="fa-solid fa-arrow-down-a-z"></i>'
    notes: ['Supersedes and merges papers <a href="https://arxiv.org/abs/2103.13089">(i)</a> and <a href="https://arxiv.org/abs/2104.02050">(ii)</a>']
    venue: ['<em>ACM-SIAM Symposium on Discrete Algorithms</em>', "<b>SODA'22</b>", '<s>Alexandria, VA, USA</s> (virtual)','Journal version: <em>Theory of Computing</em>']
